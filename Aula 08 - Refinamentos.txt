@@ -1,0 +1,20 @@
+Codificando operações de subtração, multiplicação e divisão.
+
+
+Q1 - Escreva um algoritmo que leia dois números inteiros 'a' e 'b', calcule a diferença deles e mostre o resultado.
+
+1. Leia os números [a] e [b];
+2. Calcule a subtração de [a] - [b];
+3. Mostre o resultado da [subtração].
+
+Q2 - Escreva um algoritmo que leia dois números inteiros 'a' e 'b', calcule o produto deles e mostre o resultado.
+
+1. Leia  os números [a] e [b];
+2. Calcule a multiplicação de [a] * [b];
+3. Mostre o resultado da [multiplicação].
+
+Q3 - Escreva um algoritmo que leia dois números inteiros 'a' e 'b', calcule o quociente entra eles e mostre o resultado.
+
+1. Leia os números [a] e [b];
+2. Calcule a divisão de [a] / [b];
+3. Mostre o resultado da [divisão].
