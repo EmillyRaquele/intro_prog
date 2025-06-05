@@ -1,0 +1,352 @@
+Q1. Soma de dois números.
+
+Linguagem natural: 
+ 1. Leia esses dois números;
+ 2. Calculo a soma desses dois números;
+ 3. Mostro o resultado do cálculo. 
+
+Código refinado utilizando variáveis: 
+ 1. Leia [a] + [b];
+ 2. Calcule a [soma] = [a] + [b]; 
+ 3. Print [soma]. 
+
+
+Q2. Média aritmética de três números.
+
+Linguagem natural: 
+ 1. Leia esses três números;
+ 2. Calculo a soma desses três números;
+ 3. Divido o resultado dessa soma por três; 
+ 4. Mostro o resultado do cálculo. 
+
+Código refinado utilizando variáveis:
+ 1. Leia [a], [b] e [c];
+ 2. Calculo a [soma] = [a] + [b] + [c];
+ 3. Calculo a [média] = [soma] / 3;
+ 4. Print [média aritmética]. 
+
+
+Q3. Área de um retângulo.
+
+Linguagem natural:
+ 1.	Leia a base e a altura do retângulo;
+ 2.	Multiplique a base pela altura;
+ 3.	Mostre o resultado da área.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [base] e [altura];
+ 2.	Calcule a [área] = [base] * [altura];
+ 3.	Mostre [área].
+
+
+Q4. Área de um triângulo.
+
+Linguagem natural:
+ 1.	Leia a base e a altura do triângulo;
+ 2.	Multiplique a base pela altura;
+ 3.	Divida o resultado por 2;
+ 4.	Mostre o resultado da área.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [base] e [altura];
+ 2.	Calcule o [produto] = [base] * [altura];
+ 3.	Calcule a [área] = [produto] / 2;
+ 4.	Mostre [área].
+
+
+Q5. Conversão de temperatura. 
+
+Linguagem natural:
+ 1.	Leia a temperatura em Celsius;
+ 2.	Multiplique o valor de Celsius por 9;
+ 3.	Some 160 ao resultado da multiplicação; 
+ 4.	Divida o resultado da soma por 5;
+ 5.	Mostre a temperatura convertida para Fahrenheit.
+
+Código refinado utilizando variáveis:
+ 1.	Leia a temperatura [C];
+ 2.	Calcule o [produto] = [C] * 9;
+ 3.	Calcule a [soma] = [produto] + 160;
+ 4.	Calcule a temperatura em Fahrenheit [F] = [soma] / 5;
+ 5.	Mostre [F].
+
+
+Q6. Média ponderada de três notas.
+
+Linguagem natural:
+ 1.	Leia as três notas e os três pesos correspondentes;
+ 2.	Multiplique cada nota pelo seu respectivo peso;
+ 3.	Some os três resultados das multiplicações;
+ 4.	Some os três pesos;
+ 5.	Divida a soma das multiplicações pela soma dos pesos;
+ 6.	Mostre o resultado da média ponderada.
+
+Código refinado utilizando variáveis:
+ 1.	Leia as notas [n1], [n2] e [n3] e os pesos [p1], [p2] e [p3];
+ 2.	Calcule [multiplicação 1] = [n1] * [p1];
+ 3.	Calcule [multiplicação 2] = [n2] * [p2];
+ 4.	Calcule [multiplicação 3] = [n3] * [p3];
+ 5.	Calcule [soma das notas] = [multiplicação 1] + [multiplicação 2] + [multiplicação 3];
+ 6.	Calcule [soma dos pesos] = [p1] + [p2] + [p3];
+ 7.	Calcule [média ponderada] = [soma das notas] / [soma dos pesos];
+ 8.	Mostre [média ponderada].
+
+
+Q7. Volume de uma caixa retangular.
+
+Linguagem natural:
+ 1.	Leia o comprimento, a largura e a altura da caixa;
+ 2.	Multiplique o comprimento pela largura;
+ 3.	Multiplique o resultado pela altura;
+ 4.	Mostre o resultado do volume.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [comprimento], [largura] e [altura];
+ 2.	Calcule o [resultado1] = [comprimento] * [largura];
+ 3.	Calcule o [volume] = [resultado1] * [altura];
+ 4.	Mostre [volume].
+
+
+Q8. Valor total da compra.
+
+Linguagem natural:
+ 1.	Leia o preço dos três produtos;
+ 2.	Some o valor do primeiro com o segundo produto;
+ 3.	Some o resultado com o valor do terceiro produto;
+ 4.	Mostre o valor total da compra.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os preços de [produto 1], [produto 2] e [produto 3];
+ 2.	Calcule [soma] = [produto 1] + [produto 2] + [produto 3]
+ 3. Mostre [valor total].
+
+
+Q9. Tempo total de uma viagem.
+
+Linguagem natural:
+ 1.	Leia o tempo gasto em horas;
+ 2.	Leia a velocidade média da viagem;
+ 3.	Multiplique a velocidade pelo tempo para calcular a distância total;
+ 4.	Multiplique o tempo por 60 para converter para minutos;
+ 5.	Mostre a distância total; 
+ 6.	Mostre o tempo total em minutos.
+
+Código refinado utilizando variáveis:
+1. Leia os valores de [tempo horas] e [velocidade média];
+2. Calcule [distancia total] = [velocidade] * [tempo];
+3. Calcule [tempo minutos] = [tempo horas] * 60;
+4. Mostre [distancia total];
+5.	Mostre [tempo minutos].
+
+
+Q10. Conversão de dias em horas. 
+
+Linguagem natural: 
+1. Leia a quantidade de dias;
+2. Multiplique o número de dias por 24;
+3. Mostre o resultado da conversão em horas.
+
+Código refinado utilizando variáveis:
+1. Leia o valor de [dias];
+2. Calcule [horas] = [dias] * 24;
+3. Mostre [horas].
+
+
+Q11. Conversão de minutos em segundos. 
+
+Linguagem natural:
+ 1.	Leia a quantidade de minutos;
+ 2.	Multiplique os minutos por 60;
+ 3.	Mostre o resultado da conversão em segundos.
+
+Código refinado utilizando variáveis:
+ 1.	Leia o valor de [minutos];
+ 2.	Calcule [segundos] = [minutos] * 60;
+ 3.	Mostre [segundos].
+
+
+Q12. Cálculo do novo salário.
+
+Linguagem natural:
+ 1.	Leia o valor do salário atual;
+ 2.	Leia o valor do aumento fixo;
+ 3.	Some o salário com o valor do aumento;
+ 4.	Mostre o novo salário.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [salario] e [aumento];
+ 2.	Calcule [soma] = [salário] + [aumento];
+ 3.	Mostre [novo salário].
+
+
+Q13. Cálculo de juros simples. 
+
+Linguagem natural:
+ 1.	Leia o valor do capital;
+ 2.	Leia a taxa de juros mensal;
+ 3.	Leia o tempo em meses;
+ 4.	Multiplique o capital pela taxa e depois pelo tempo;
+ 5.	Some o resultado da multiplicação com o capital; 
+ 6.	Mostre o montante final com juros.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [capital], [taxa] e [tempo];
+ 2.	Calcule [juros] = [capital] * [taxa] * [tempo];
+ 3.	Calcule [montante] = [capital] + [juros];
+ 4.	Mostre [montante].
+
+
+Q14. Troco de uma compra.
+
+Linguagem natural:
+ 1.	Leia o valor total da compra;
+ 2.	Leia o valor pago pelo cliente;
+ 3.	Subtraia o valor da compra pelo valor pago;
+ 4.	Mostre o valor do troco.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [valor da compra] e [valor pago];
+ 2.	Calcule [troco] = [valorPago] - [valorCompra];
+ 3.	Mostre [troco].
+
+
+Q15. Cálculo do IMC (Índice de Massa Corporal).
+
+Linguagem natural:
+ 1.	Leia o valor do peso em quilogramas;
+ 2.	Leia o valor da altura em metros; 
+ 3.	Eleve a altura ao quadrado; 
+ 4.	Divida o peso pelo resultado da altura ao quadrado;
+ 5.	Mostre o valor do IMC.
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [peso] e [altura];
+ 2.	Calcule [altura ao quadrado] = [altura] * [altura];
+ 3.	Calcule [imc] = [peso] / [altura ao quadrado];
+ 4.	Mostre [imc].
+
+
+Q16. Perímetro de um círculo.
+
+Linguagem natural:
+ 1.	Leia o valor do raio do círculo;
+ 2.	Multiplique 2 por 3,14; 
+ 3.	Multiplique o resultado pelo raio;
+ 4.	Mostre o valor do perímetro.
+
+Código refinado utilizando variáveis:
+ 1.	Leia o valor de [raio];
+ 2.	Calcule [produto] = 2 * 3.14;
+ 3.	Calcule [perimetro] = [produto] * [raio];
+ 4.	Mostre [perimetro].
+
+
+Q17. Diferença de idades.
+
+Linguagem natural:
+ 1.	Leia a primeira idade;
+ 2.	Leia a segunda idade;
+ 3.	Subtraia uma idade da outra; 
+ 4.	Mostre o valor da diferença (em anos).
+
+Código refinado utilizando variáveis:
+ 1.	Leia os valores de [idade 1] e [idade 2];
+ 2.	Calcule [diferença] = [idade 1] - [idade 2];
+ 3.	Mostre [diferença].
+
+
+Q18. Média de consumo de combustível.
+
+Linguagem natural:
+ 1. Leia a distância percorrida em quilômetros;
+ 2.	Leia o total de combustível gasto em litros;
+ 3.	Calcule a média de consumo dividindo a distância pelo combustível gasto;
+ 4.	Mostre o resultado da média de consumo.
+
+Código refinado utilizando variáveis:
+ 1.	Leia [km] (distância percorrida);
+ 2.	Leia [litros] (combustível gasto);
+ 3.	Calcule [consumo] = [km] / [litros];
+ 4.	Mostre [consumo].
+
+
+Q19. Valor a pagar em conta dividida.
+
+Linguagem natural:
+ 1.	Leia o valor total da conta;
+ 2.	Leia o número de pessoas que vão dividir a conta;
+ 3.	Calcule quanto cada pessoa deve pagar dividindo o valor total pelo número de pessoas;
+ 4.	Mostre o valor que cada pessoa deve pagar.
+
+Código refinado utilizando variáveis:
+ 1.	Leia [valor total];
+ 2.	Leia [número de pessoas];
+ 3.	Calcule [valor por pessoa] = [valor total] / [número de pessoas]
+ 4.	Mostre [valor por pessoa].
+
+
+Q20. Cálculo de desconto.
+
+Linguagem natural:
+	1.	Leia o valor do produto;
+	2.	Leia a porcentagem de desconto;
+	3.	Calcule o valor do desconto aplicando a porcentagem sobre o valor do produto;
+	4.	Subtraia o valor do desconto do valor do produto para obter o valor com desconto;
+  5.  Mostre o valor com o desconto.
+
+Código refinado utilizando variáveis:
+ 1.	Leia [valor do produto];
+ 2.	Leia [percentual de desconto];
+ 3.	Calcule [valor do desconto] = [valor do produto] * ([percentual do desconto] / 100);
+ 4.	Calcule [valor final] = [valor do produto] - [valor do desconto];
+ 5.	Mostre [valor final].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
