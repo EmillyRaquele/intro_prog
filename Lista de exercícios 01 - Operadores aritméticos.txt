@@ -72,24 +72,22 @@ Código refinado utilizando variáveis:
 
 
 Q6. Média ponderada de três notas.
+Leia três notas e seus respectivos pesos e calcule a média ponderada.
 
-Linguagem natural:
- 1.	Leia as três notas e os três pesos correspondentes;
- 2.	Multiplique cada nota pelo seu respectivo peso;
- 3.	Some os três resultados das multiplicações;
- 4.	Some os três pesos;
- 5.	Divida a soma das multiplicações pela soma dos pesos;
- 6.	Mostre o resultado da média ponderada.
+(1) Entrada: três notas e três pesos
+(2) Saída: mostrar a média (não está sendo solicitado isso)
+(3) Processamento: média ponderada é igual a soma dos produtos de cada nota pelo seu respectivo peso dividido pela soma dos pesos.
 
-Código refinado utilizando variáveis:
- 1.	Leia as notas [n1], [n2] e [n3] e os pesos [p1], [p2] e [p3];
- 2.	Calcule [multiplicação 1] = [n1] * [p1];
- 3.	Calcule [multiplicação 2] = [n2] * [p2];
- 4.	Calcule [multiplicação 3] = [n3] * [p3];
- 5.	Calcule [soma das notas] = [multiplicação 1] + [multiplicação 2] + [multiplicação 3];
- 6.	Calcule [soma dos pesos] = [p1] + [p2] + [p3];
- 7.	Calcule [média ponderada] = [soma das notas] / [soma dos pesos];
- 8.	Mostre [média ponderada].
+Sempre o fluxo será: (1) - (3) - (2)
+
+Leia [nota 1]
+Leia [peso 1]
+Leia [nota 2]
+Leia [peso 2]
+Leia [nota 3]
+Leia [peso 3]
+[média] = ([nota 1] * [peso 1] + [nota 2] * [peso 2] + [nota 3] * [peso 3]) / ([peso 1] + [peso 2] + [peso 3])
+Mostre [média]
 
 
 Q7. Volume de uma caixa retangular.
